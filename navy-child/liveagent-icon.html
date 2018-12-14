@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <style>
+            .show-frame {
+                display : inline-block;
+            }
+            .show-span { 
+                display: inline-block; 
+                position: absolute; 
+                /*right: 10px;*/ 
+                left:370px;
+                top: 17px; 
+                cursor: pointer; 
+                width: 15px;
+            }
+            .hide-span {
+                display : none;
+            }
+            .hide-frame {
+                display : none;
+            }
+            iframe { 
+                border: 0; 
+            }
+            body {
+                margin: 0; 
+            }
+            iframe {
+                box-shadow: -3px 1px 12px 0 rgba(0, 0, 0, 0.18);               
+            }
+            #liveAgentSaveButton, #liveAgentEndButton{background-color: transparent !important; padding: 5px 10px !important; border-radius: 7px !important; font-weight:normal !important; background:transparent !important;}
+            #images{float:right; margin-right:10px;}
+        </style>
+    </head>
+    <body onload="closeChat()">
+        <div >
+            <!--<span id="expand" class="hide-span" onclick=""><img src="https://sms-magic--liveagent--c.cs92.visual.force.com/resource/1537344672000/expand">  </span>-->
+            <span id="close" class="hide-span" onclick="closeChat()"><img src="https://sms-magic--liveagent--c.cs92.visual.force.com/resource/1537344672000/close">  </span>
+        </div>
+    <iframe src="/wp-content/themes/navy-child/liveagent-window.html" width="400" height="400" id="abcd2" class='hide-frame'></iframe> 
+    <script type='text/javascript'>
+        window.name = 'prechatpageWindow';
+    </script>
+    <div id="images" class="show-frame">
+	<img id="liveagent_button_online_5731L000000TXtQ" style="display: none; border: 0px none; cursor: pointer" onclick="openChat()" src="https://sms-magic.secure.force.com/resource/1532094972000/Online" />
+	<img id="liveagent_button_offline_5731L000000TXtQ" style="display: none; border: 0px none; " src="https://sms-magic.secure.force.com/resource/1532094996000/Offline" />
+    </div>
+    <script type="text/javascript">
+	if (!window._laq) { window._laq = []; }
+	window._laq.push(function(){liveagent.showWhenOnline('5731L000000TXtQ', document.getElementById('liveagent_button_online_5731L000000TXtQ'));
+	liveagent.showWhenOffline('5731L000000TXtQ', document.getElementById('liveagent_button_offline_5731L000000TXtQ'));
+	});
+    </script>
+    
+    <script type='text/javascript' src='https://c.la2-c1-iad.salesforceliveagent.com/content/g/js/44.0/deployment.js'></script>
+    <script type='text/javascript'>
+	liveagent.init('https://d.la2-c1-iad.salesforceliveagent.com/chat', '5721L000000TXeJ', '00DA0000000JKqQ');
+    </script>
+    
+    <script>
+    function openChat() {
+        //alert('Manish');
+        document.getElementById('abcd2').className = 'show-frame';
+        document.getElementById('close').className = 'show-span';
+        document.getElementById('images').className = 'hide-frame';
+        liveagent.startChatWithWindow('5731L000000TXtQ','prechatpageWindow1');
+        //console.log(liveagent);
+    }
+    function closeChat() {
+        document.getElementById('abcd2').className = 'hide-frame';
+        document.getElementById('close').className = 'hide-span';
+        document.getElementById('images').className = 'show-frame';
+        liveagent.startChatWithWindow('5731L000000TXtQ','prechatpageWindow1');
+    }
+    </script>
+    
+    
+    </body>
+</html>

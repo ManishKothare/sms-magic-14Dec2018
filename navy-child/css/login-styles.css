@@ -1,0 +1,33 @@
+/* Login form styles start */
+.pricing-steps .loginblock{margin-bottom:30px;}
+.loginblock{display:table; width:300px; margin:0px auto; padding:0px; border-radius:10px; border:1px solid #f4f4f4; background-color:#ffffff;}
+.loginblock h3{color:#828282; font-weight:300; margin:30px auto 15px auto; padding:0px; line-height:100%; text-transform:uppercase; text-align:center;}
+.loginblock p a{color:#20bfd4;}
+.loginblock p.signupline{font-size:80%; font-weight:400; color:#999999; margin-top:-10px; text-align:center;}
+.loginblock p.passwordline{font-size:80%; font-weight:400; margin-top:10px;}
+.loginblock .form_wrapper{padding:20px 30px 20px 30px; border-bottom:1px solid #f2f2f2;}
+.loginblock .sf_btn_wrapper{padding:30px 30px 30px 30px;}
+.loginblock div.form-group{margin-bottom:20px;}
+.login_form_button{font-size:0.95em; font-weight:500; color:#ffffff; text-transform:uppercase; text-align:center; padding:8px 30px; display:table; width:100%; border:0px; border-radius:4px; cursor:pointer;}
+.portallogin{background-color:#21bfd3;}
+.sflogin{background-color:#00396B;}
+.loginblock input[type="email"], .loginblock input[type="password"]{border-bottom:1px solid #013b6d; border-left:0px; border-right:0px; border-top:0px; padding:4px 4px 4px 0px; width:100%; font-size:100%;}
+.loginblock .form-control{margin:0px 0px 5px 0px;}
+.loginblock .form-group span.badcredentials{font-size:80%; color:#ff0000; text-align:left; width:auto; display:inline; float:left; padding:0px 0px 0px 2px;}
+.loginform_cpblock{width:100%; padding:0px 12px 0px 12px; display:block; position:relative;}
+.cpblock_wrapper{width:100%; background-color:#ffffff; border-left:1px solid #f4f4f4; border-bottom:1px solid #f4f4f4; border-right:1px solid #f4f4f4; border-bottom-left-radius:10px; border-bottom-right-radius:10px; position:relative;}
+.cpblock_title{background-color:#e1e1e1; padding:10px 15px 10px 45px; text-align:left; background-position:15px 11px; background-repeat:no-repeat;
+-webkit-box-shadow:inset 0px 5px 5px 0px rgba(0,0,0,0.3);
+-moz-box-shadow:inset 0px 5px 5px 0px rgba(0,0,0,0.3);
+box-shadow:inset 0px 5px 5px 0px rgba(0,0,0,0.3);
+}
+.cpblock_title .totalcost{color:#00396B; font-weight:700; float:right;}
+.cpblock_title .totalcost:before{content:'Total:'; color:#00396B; font-weight:400; padding-right:5px;}
+.cpblock_table_wrapper{padding:10px 15px;}
+.cpblock_table{width:100%; display:table;}
+.cpblock_table .cpblock_tablecol{display:table-cell; width:auto; padding:0px 10px 0px 0px; text-align:left;}
+.cpblock_table .cpblock_tablecol.cpblock_credits{padding-right:0px;}
+.cpblock_table .cpblock_tablecol p{color:#00396B; font-weight:500; font-size:90%; margin-bottom:0px;}
+.cpblock_table .cpblock_tablecol p strong{font-weight:700; font-size:110%; display:block; clear:both;}
+.loginblock .form-group label.error{color:#ff0000 !important; font-size:80%;}
+/* Login form styles end */

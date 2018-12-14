@@ -1,0 +1,270 @@
+*{margin:0;padding:0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+body {font-family: 'Lato', sans-serif;color: #333;}
+a {
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.padding-null {
+    padding: 0;
+}
+.registration-left-wrap {
+    position: relative;
+    background: #072c62;
+    background-image: url(/wp-content/themes/navy-child/img/Pattern.svg),linear-gradient(318deg,#002060,#072c62 50%,#0e58c4);
+    height: 100%;
+}
+.registration-left-wrap .left-box-content {
+    width: 100%;
+    padding: 50px 70px 30px;
+}
+.registration-left-wrap .left-box-content h3 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.29;
+    margin: 0;
+}
+.registration-left-wrap .left-box-content p {
+    font-size: 19px;
+    text-align: left;
+    color: #fff;
+    margin-top: 10px;
+}
+.registration-left-wrap .img-devices {
+    text-align: center;
+}
+.registration-left-wrap .img-devices img {
+    width: 80%;
+    max-width: 80%;
+    margin-left: -30px;
+}
+.registration-form {
+    height: 100%;
+    overflow: auto;
+}
+.registration-form .logo-sms-Magic {
+    margin: 50px auto 30px;
+    text-align: center;
+}
+.registration-form .logo-sms-Magic img {
+    width: 170px;
+}
+.registration-form .form-style {
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    height: calc(100vh - 150px);
+}
+/*.left-side {
+    width: 50%;
+    float: left;
+}
+.right-side {
+	    width: 50%;
+    float: left;
+}*/
+.left-side, .right-side {
+width: 50%;
+float: left;
+vertical-align: top;
+display: inline-block;
+height: calc(100vh - 1px);
+}
+.registration-form .form-title {
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #333;
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.license-wrapper {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+.license-wrapper .license-header {
+    background: #efefef;
+    padding: 7px 10px;
+    font-size: 15px;
+}
+.license-wrapper .content-license{
+    padding: 10px;
+    font-size: 12px;
+    color: #888;
+    max-height: calc(100vh - 350px);
+    overflow: auto;
+}
+.license-wrapper .content-license::-webkit-scrollbar {
+    width: 5px
+}
+.license-wrapper .content-license::-webkit-scrollbar-track {
+    background-color: transparent
+}
+.license-wrapper .content-license::-webkit-scrollbar-thumb {
+    background-color: #ccd5e4;
+    border-radius: 5px
+}
+.license-wrapper .content-license::-webkit-scrollbar-thumb:hover {
+    background-color: #aaaaaa
+}
+.license-wrapper .content-license p {
+    margin-bottom: 5px;
+}
+.check-data {
+    position: relative;
+    margin-bottom: 20px;
+}
+.check-data .custom-checkbox-wrap {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px;
+}
+.check-data .custom-checkbox-wrap input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    left: 0;
+    z-index: 9;
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    border-radius: 4px
+}
+.check-data .custom-checkbox-wrap input:checked~.checkmark {
+    background-color: #4fa1f0;
+    border: 0
+}
+.check-data .custom-checkbox-wrap input:checked~.checkmark:after {
+    display: block
+}
+.check-data .custom-checkbox-wrap .checkmark:after {
+    left: 5px;
+    top: 3px;
+    width: 4px;
+    height: 8px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.check-data .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #bbb
+}
+.check-data .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none
+}
+.check-data .gdpr-txt {
+    font-size: 13px;
+    color: #999;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 19px;
+    width: calc(100% - 25px);
+    margin-left: 2px;
+    margin-bottom:0px;
+}
+.check-data .gdpr-txt a {
+    color: #2196F3;
+    text-decoration: none;
+}
+.fill-blue-btn {
+    display: block;
+    border: 0;
+    padding: 12px 50px !important;
+    border-radius: 30px !important;
+    width: auto;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 14px;
+    background: #0070D2 !important;
+    cursor: pointer;   
+}
+.fill-blue-btn:hover {
+    background: #005daf;
+}
+.fill-blue-btn:focus {
+	outline: 0;
+}
+
+
+.SMS-Magic_Logo {
+  text-align:center;
+  object-fit: contain;
+  margin:20px auto 0px auto;
+}
+.SMS-Magic_Logo img{width:200px;}
+.Get-started-with-SMS {color: #333333;text-align: center; font-size:16px;}
+.box-text p{font-size: 13px; line-height: 1.5; letter-spacing: normal; text-align: center; color: #888888;}
+.box-heading{text-align: center;color: #333333;}
+.vc_btn3.vc_btn3-size-lg{padding:10px 20px !important;}
+
+.industry-section:hover{box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.12); border: solid 1px #2d9cdb;border-radius: 6px; cursor: pointer;}
+.he-icon{margin-top:2px; margin-bottom:5px;}
+.go-btn{ border: solid 1px #2d9cdb !important;}
+div.industry-section.selected{border:solid 1px #2d9cdb;-moz-border-radius:3px; border-radius:3px; }
+div.industry-section.unselect{border:none;-moz-border-radius:none; border-radius:none;}   
+.form-title{font-size: 20px; font-weight: 500; text-align: center; color: #333333; margin-bottom:10px;}
+.form-text{font-size: 13px; text-align: center; color: #888888;line-height: normal; margin-bottom:15px;}
+.form-wrapper{width:100%;}
+.form-left-column{width:48%; float:left; color: #999999;}
+.form-right-column{width:48%; float:right; color: #999999;}
+.bottom-text{color: #999999; font-size:13px;}
+.red {color: #F10;font-size: 70%; vertical-align: top;}
+table{border:none !important; color:#999999;}
+input[type=text] {width: 100%;padding: 8px;box-sizing: border-box; color: #333333;}
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari/ */
+   color: #999999;
+   opacity: 1;
+}
+input[type=checkbox]{vertical-align:middle;}
+select{width: 100%;padding: 8px;box-sizing: border-box;color: #333333;background-color: transparent;}
+.go-to-app-btn a{border-radius: 24px;background-color: #ffffff;border: solid 1px #2d9cdb;}
+.vc_btn3.vc_btn3-size-lg{font-size:13px !important;}
+.selected {border:solid 1px #2d9cdb !important; -moz-border-radius:6px !important; border-radius:6px !important; }
+.dissable-btn{background-color:#eaeaea !important; cursor:auto;}
+
+.industry-blocks-Wrapper{width:100%; }
+.industry-blocks-Wrapper li{display: inline-block; padding:15px; margin: 5px 5px 5px 5px !important; cursor:pointer;}
+.industry-blocks-Wrapper li:hover{border:solid 1px #2d9cdb;overflow: initial;}
+ul{padding:0px !important;}
+.industry-block{width:30%; /*display:table-cell;*/}
+.industry-title{text-align: center; margin-top:15px; font-size:15px;}
+.helptext {color: #999999;font-size: 12px; line-height:1.5;}
+.consentfield {display: block;font-size: 12px;} 
+.helptext label{font-size:12px !important;color: #999999;}
+#trialForm p{margin-bottom:12px; margin-top:12px;}
+#trialForm label{width:100%; clear:both; display:inline-block; font-size:14px; margin-top:12px;}
+#trialForm label.error{color: #F10;font-size: 70%;margin-top:0px;}
+input:-webkit-autofill{background-color:transparent !important;}
+.ajaxLoader{width:100%; height:100%; margin:0px; position:fixed; left:0; top:0; background:rgba(0,0,0,0.8); z-index:999;}
+.ajaxLoader-img{display: table; margin: 10% auto; width: 20%; height: auto;}
+
+@media (max-width:768px) {
+    .left-side {
+        display: none;
+    }
+    .right-side {
+        width: 100%;
+    }
+    .registration-form .form-style {
+        width: 90%;
+    }
+}

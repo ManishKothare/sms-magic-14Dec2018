@@ -1,0 +1,222 @@
+/*
+ Theme Name:   Navy Child
+ Theme URI:    http://highgradelab.com
+ Description:  navy Child Theme
+ Author:       HighGrade
+ Author URI:   http://highgradelab.com
+ Template:     navy
+ Version:      1.0.0
+ License:      Commercial
+ License URI:  http://themeforest.net
+ Tags:         light, dark, white, one-column, two-columns, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, post-formats, theme-options, translation-ready
+ Text Domain:  navy-child
+*/
+
+
+/* Add your custom css below */
+
+/*top-bar-blue-start*/
+.fix-header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9;
+}
+
+.fix-header #hgr_top_navbar_container {
+    position: relative;
+}
+
+.top-bar-header ul {
+    float: right;
+}
+
+.top-bar-header ul li {
+    display: block;
+    float: left;
+    padding: 7px 15px;
+}
+
+.top-bar-header ul li a {
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.top-bar-header ul li:last-child a {
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 2px 10px;
+    color: #fff;
+}
+
+#hgr_top_navbar_container {
+    display: block;
+    z-index: 1000;
+    max-width: 100vw;
+    width: 100vw;
+    font-family: Source Sans Pro;
+    display: table;
+    position: relative;
+}
+/*top-bar-blue-end*/
+
+.page-template-page-blind-nurture .vc_col-sm-4 p{font-size:85%;}
+.page-template-page-blind-nurture .vc_col-sm-4 img{margin-top:35px; margin-bottom:15px;}
+.page-template-page-blind-nurture .vc_col-sm-8 h3{margin: 35px 0px 10px 0px;}
+.wpb_wrapper ul, .wpb_wrapper ol{padding: 0 0 20px 15px; line-height: 26px; list-style:disc outside none;}
+.wpb_wrapper li, .wpb_wrapper li{margin: 7px 0px 7px 15px;}
+.moving-content-zone ul, .moving-content-zone ol{padding: 0 0 23px 1em; line-height: 26px; list-style-type: disc; color: #4a4a4a;}
+.moving-content-zone li, .moving-content-zone li{margin: 7px 0px 7px 15px; color: #4a4a4a;}
+.use-cases-titles ul li a{font-size:21px;}
+.use-cases-titles li{margin: 7px 0px 25px 7px;}
+
+/*Blog post formatting*/
+.blog-img-text-wrapper {width: 100%;}
+.blog-left-text {width: 49%; float: left; padding-right: 5px;}
+.blog-right-image {width: 50%; float: right; padding-top: 8px;}
+.blog-right-image img{margin-bottom:10px;}
+.single-post .post ul, .blog .post ul{margin: 0px 0px 20px 0px;}
+.single-post .post li, .blog .post li{margin: 0px 0px 7px 20px;}
+.blog h1 a, .single-post h1 a{color:#2a2a2a;}
+.blog h1 a:hover, .single-post h1 a:hover{color:#2a2a2a;}
+[class^="blog-"], [class*=" blog-"]{font-family: "Open Sans";
+    line-height: 24px;
+    /*font-weight: 400;*/
+    font-style: normal;
+    color: #4a4a4a;
+    font-size: 16px;}
+.blog .blog_widget a{color:#4a4a4a;}
+.blog .blog_widget a:hover{color:#0e58c4;}
+.blog .blog_widget ul li, .single-post .blog_widget ul li{font-size:90%; margin:0px;}
+.post small .highlight .icon{font-family:'blog-icons'}
+.single .vc_col-sm-8 h3{font-size:25px !important; margin-top:30px;}
+.single .vc_col-sm-8 h1{margin-top:-10px;}
+.blog_widget h4{text-transform: none;}
+.blog_widget{margin-bottom:30px;}
+.single-post .blogPosts .img-responsive{margin-bottom:20px;}
+/*Blog post formatting*/
+
+/*Search Page*/
+.search h1 a{color:#2a2a2a;}
+.search h1{font-size:30px;}
+.search .blogPosts .post div.figure1:not(:empty){height:250px; background:white; margin-bottom:20px;}
+.search .navigation, .blog .navigation{margin-right:0px;}
+.search .blogPosts .post, .blog .blogPosts .post{padding: 10px 10px 10px 10px; border: 1px solid #e0e0e0; margin: 0px 0px 15px 0px; border-radius: 5px;}
+.search .blogPosts .entry{margin-top:0px; border-top:none; padding-top:0px;}
+#fssearch_container{height:auto;}
+#fssearch_container #searchform input[type="text"]{height:50px; border:1px solid #eaeaea; background-color:#f3f7fb;font-size:25px; font-weight:400; margin:0px; font-family:"Open Sans"; line-height: 36px; font-style: normal; color: #4a4a4a;}
+#fssearch_container .fssearch_tip{top:10px; color:#c1c1c1; font-size:90%;}
+#fssearch_container .close-btn{top:0px;}
+input::placeholder{color:#d1d1d1;}
+/*Searcgh Page*/
+
+/*Category, Tags, Author page template*/
+.archive .blogPosts .post div.figure1:not(:empty){height:250px; background:white; margin-bottom:20px;}
+.archive .blogPosts .post, .blog .blogPosts .post{padding: 10px 10px 10px 10px; border: 1px solid #e0e0e0; margin: 0px 0px 15px 0px; border-radius: 5px;}
+.archive .blog_widget ul li{font-size:90%; margin:0px;}
+/*Category, Tags, Author page template*/
+
+/*Superscript*/
+sup{vertical-align:super; font-size:75%;}
+/*Superscript*/
+.casestudyWrapper{margin-bottom:40px;}
+.casestudyWrapper h6 a{font-size:21px; font-weight:normal;}
+
+/*Nurture post formatting*/
+.single-messaging .blogPosts .messaging h1 + small, .single-messaging .blogPosts .messaging h1 + img + small{display:none;}
+.post-type-archive-messaging .blogPosts .messaging h1 + .figure1 + small{display:none;}
+.single-messaging .blog_widget h6 a{line-height:22px; margin-top: 10px;}
+.single-messaging .blog_widget h6 a:before{display:none;}
+.single-messaging .blog_widget .crp_item_desc p{font-size: 95%; line-height: 20px; margin-top: 5px;}
+.single-messaging .blogPosts .entry,  .post-type-archive-messaging .blogPosts .entry{border-top:none;}
+.post-type-archive-messaging .blogPosts .messaging > div.figure1:empty + small + .entry, .single-messaging .blogPosts .messaging > .entry{margin-top:0px; padding-top:5px;}
+.blog .blogPosts .post div.figure1:not(:empty), .archive .blogPosts .post div.figure1:not(:empty){height:250px; background:white;}
+.blog .blogPosts .post .nonempty{margin-bottom:10px;}
+.single-messaging .blog_widget li{border-bottom:none; padding:20px 0px 17px 0px;}
+.single-messaging .blog_widget a{color:#2d9cdb;}
+.single-messaging .blog_widget a:hover{color:#0e58c4;}
+.single-messaging .blog_widget ul li{font-size:90%; margin:0px;}
+/*Nurture post formatting*/
+
+/*Technical Help Documentations*/
+.page-template-page-help-docs-public iframe{position:fixed; left:0px; right:0px; bottom:0px; top:10px; width:100%; height:100%; z-index:1;}
+.page-template-page-help-docs-public .vc_column_container>.vc_column-inner{padding-left:0px; padding-right:0px;}
+.page-template-page-help-docs-protected iframe{position:fixed; left:0px; right:0px; bottom:0px; top:10px; width:100%; height:100%; z-index:1;}
+.page-template-page-help-docs-protected .vc_column_container>.vc_column-inner{padding-left:0px; padding-right:0px;}
+.page-template-page-zoho-help-docs-protected iframe{position:fixed; left:0px; right:0px; bottom:0px; top:10px; width:100%; height:100%; z-index:1;}
+.page-template-page-zoho-help-docs-protected .vc_column_container>.vc_column-inner{padding-left:0px; padding-right:0px;}
+.page-template-page-sf-help-docs-protected iframe{position:fixed; left:0px; right:0px; bottom:0px; top:10px; width:100%; height:100%; z-index:1;}
+.page-template-page-sf-help-docs-protected .vc_column_container>.vc_column-inner{padding-left:0px; padding-right:0px;}
+/*Technical Help Documentations*/
+
+.bullet-style-top ul li{margin-bottom:10px !important;}
+.bullet-style-top ul li {
+    list-style-type: none;
+    background: url(http://launch.sms-magic.com/wp-content/uploads/icon-bul.png) 3px 6px;
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 24px;
+    margin: 0px;
+}
+.blog_widget li {
+	font-size: inherit;
+	line-height: 30px;
+	/*font-weight: 400;*/
+	/*font-family: Source Sans Pro;*/
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+	border-bottom: 1px dotted #c2c2c2;
+}
+.blog_widget li:last-child {
+	border-bottom: none;
+}
+.blog_widget a {
+	font-size: inherit;
+	line-height: 30px;
+	/*font-weight: 400;*/
+	/*font-family: Source Sans Pro;*/
+	font-family: 'Open Sans', sans-serif;
+	display: inline-block;
+}
+
+.post span.highlight {
+	margin-right: 20px;
+	font-family: "Open Sans" !important;
+	font-size:14px;
+	font-style:normal !important;
+	/*font-style:italic;*/
+}
+
+
+@media only screen and (max-width:480px) {
+	
+ .top-bar-header ul li {
+    display: block;
+    float: left;
+    padding: 7px 5px;
+}
+.top-bar-header ul li a { font-size: 10px;}
+}
+
+.cookie-notice-container{padding:15px 10px;}
+#cn-notice-text{font-size:100%; color:#000000;}
+#cookie-notice .cn-button{margin-left:10px; padding:8px 30px !important; font-size:100% !important; border:1px solid #ccc !important; color:#000000 !important; text-transform: capitalize !important;}
+
+/*-#Rules for selectively enabling calendly widget#-*/
+body.geoip-continent-NA #website_boxed #AllAmericas, body.geoip-continent-SA #website_boxed #AllAmericas{display:block !important;}
+body.geoip-continent-NA #website_boxed #NonAmericas, body.geoip-continent-SA #website_boxed #NonAmericas{display:none !important;}
+body.geoip-continent-EU #website_boxed #AllAmericas, body.geoip-continent-AS #website_boxed #AllAmericas, body.geoip-continent-AF #website_boxed #AllAmericas, body.geoip-continent-OC #website_boxed #AllAmericas{display:none !important;}
+body.geoip-continent-EU #website_boxed #NonAmericas, body.geoip-continent-AS #website_boxed #NonAmericas, body.geoip-continent-AF #website_boxed #NonAmericas, body.geoip-continent-OC #website_boxed #NonAmericas{display:block !important;}
+/*#Rules for calendly widget end#*/
+
+/*for sflivechat start */
+.sflivechat{/*width:400px; height:400px;*/ position:fixed; /*z-index:9999;*/ right:10px; bottom:5px;}
+body button{background-color: transparent !important; padding: 5px 10px !important; border-radius: 7px !important; font-weight:normal !important; background:transparent !important;}
+
+
+.sflivechat img{max-width:100% !important; margin-right:0px !important; width:100% !important; height:auto !important; right:unset !important; bottom:unset !important;}
+.livechatsf{border: 0px solid #ccc; position:fixed;right: 10px; bottom:5px;}
+#images{float:right; margin-right:10px;}
+/*for sflivechat end */
